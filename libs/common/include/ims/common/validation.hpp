@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Data Validation Framework
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Data Validation Framework
+// Version: 3.6.3
 // =============================================================================
 //
 // Provides mainframe-compatible validation for dataset names, record sizes,

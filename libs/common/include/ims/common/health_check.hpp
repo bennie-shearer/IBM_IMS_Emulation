@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Health Check
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Health Check
+// Version: 3.6.3
 // =============================================================================
 //
 // System health monitoring with configurable checks and status reporting.

@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Benchmark Tests
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Benchmark Tests
+// Version: 3.6.3
 // =============================================================================
 
 #include "ims/common/types.hpp"
@@ -243,7 +243,7 @@ void benchmark_packed_decimal(BenchmarkSuite& suite) {
 
 int main() {
     std::cout << "========================================\n";
-    std::cout << "IBM IMS Emulation Enterprise v3.6.2\n";
+    std::cout << "IBM IMS (Information Management System) Emulation Enterprise v3.6.3\n";
     std::cout << "Performance Benchmark Suite\n";
     std::cout << "========================================\n\n";
     

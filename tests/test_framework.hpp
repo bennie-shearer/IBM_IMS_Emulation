@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Simple Test Framework
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Simple Test Framework
+// Version: 3.6.3
 // =============================================================================
 
 #include <iostream>

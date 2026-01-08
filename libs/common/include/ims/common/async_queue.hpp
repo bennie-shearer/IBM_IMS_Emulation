@@ -1,7 +1,7 @@
 /**
  * @file async_queue.hpp
  * @brief Thread-safe asynchronous message queue
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides async messaging including:
  * - Thread-safe bounded and unbounded queues

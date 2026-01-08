@@ -1,9 +1,9 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Event System
-// Version: 3.6.2
-// NEW in v3.6.2: Observer pattern and event handling
+// IBM IMS (Information Management System) Emulation Enterprise - Event System
+// Version: 3.6.3
+// NEW in v3.6.3: Observer pattern and event handling
 // =============================================================================
 
 #include "types.hpp"

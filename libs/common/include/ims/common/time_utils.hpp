@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Time Utilities
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Time Utilities
+// Version: 3.6.3
 // =============================================================================
 //
 // Provides mainframe-compatible time formats including STCK (Store Clock),

@@ -1,5 +1,5 @@
-# IBM IMS (Information Management System) Emulation - Recommendations v3.6.2
-Version 3.6.2
+# IBM IMS (Information Management System) Emulation - Recommendations
+Version 3.6.3
 
 This document describes the recommended improvements implemented in version 3.5.0.
 
@@ -17,7 +17,7 @@ This document describes the recommended improvements implemented in version 3.5.
 
 ## Overview
 
-Version 3.6.2 focuses on:
+Version 3.6.3 focuses on:
 
 1. **Bug Fixes**: Resolving issues identified in v3.4.0
 2. **New Utilities**: Six new common library modules
@@ -324,7 +324,7 @@ namespace ims::common {
 
 ## Migration Guide
 
-### From v3.4.0 to v3.6.2
+### From v3.4.0 to v3.6.3
 
 1. **Project Name Change**
    If you reference the CMake project name, update from `IBM-IMS-Emulation` to `IBM_IMS_Emulation`.

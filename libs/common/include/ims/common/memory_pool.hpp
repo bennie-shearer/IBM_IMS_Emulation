@@ -1,7 +1,7 @@
 /**
  * @file memory_pool.hpp
  * @brief High-performance memory pool allocator for fixed-size objects
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Copyright (c) 2025 Bennie Shearer
  * MIT License - See LICENSE file for details

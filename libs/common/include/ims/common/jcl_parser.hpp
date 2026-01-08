@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - JCL Parser Foundation
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - JCL Parser Foundation
+// Version: 3.6.3
 // =============================================================================
 //
 // Basic JCL (Job Control Language) parsing for DD statement extraction and

@@ -2,13 +2,13 @@
 
 // =============================================================================
 // IBM IMS Emulation Enterprise - Generated Configuration Header
-// Version: 3.6.2
+// Version: 3.6.3
 // =============================================================================
 
 #define IMS_VERSION_MAJOR 3
 #define IMS_VERSION_MINOR 6
-#define IMS_VERSION_PATCH 2
-#define IMS_VERSION_STRING "3.6.2"
+#define IMS_VERSION_PATCH 3
+#define IMS_VERSION_STRING "3.6.3"
 
 // Platform Detection
 #define IMS_PLATFORM_WINDOWS

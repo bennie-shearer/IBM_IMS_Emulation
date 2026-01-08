@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Resource Pool
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Resource Pool
+// Version: 3.6.3
 // =============================================================================
 //
 // Generic resource pooling with automatic lifecycle management.

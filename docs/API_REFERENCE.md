@@ -1,7 +1,7 @@
 # IMS (Information Management System) Emulation - API Reference
-Version 3.6.2
+Version 3.6.3
 
-This document provides a comprehensive reference for all public APIs in the IBM IMS Emulation Enterprise library.
+This document provides a comprehensive reference for all public APIs in the IBM IMS (Information Management System) Emulation Enterprise library.
 
 ---
 

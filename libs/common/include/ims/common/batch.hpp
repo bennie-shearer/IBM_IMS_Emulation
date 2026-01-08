@@ -1,9 +1,9 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Batch Operations
-// Version: 3.6.2
-// NEW in v3.6.2: Bulk read/write support
+// IBM IMS (Information Management System) Emulation Enterprise - Batch Operations
+// Version: 3.6.3
+// NEW in v3.6.3: Bulk read/write support
 // =============================================================================
 
 #include "types.hpp"

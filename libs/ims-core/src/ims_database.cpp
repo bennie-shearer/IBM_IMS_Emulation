@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - IMS Database Implementation
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - IMS Database Implementation
+// Version: 3.6.3
 // =============================================================================
 
 #include "ims/ims/ims_types.hpp"

@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Security Example
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Security Example
+// Version: 3.6.3
 // =============================================================================
 
 #include "ims/common/types.hpp"

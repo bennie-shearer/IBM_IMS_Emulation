@@ -1,6 +1,6 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - Main CMakeLists.txt
-# Version: 3.6.2
+# IBM IMS (Information Management System) Emulation Enterprise - Main CMakeLists.txt
+# Version: 3.6.3
 # =============================================================================
 #
 # Enterprise-grade IBM IMS/VSAM/CICS mainframe emulation system.
@@ -15,8 +15,8 @@ cmake_minimum_required(VERSION 3.20)
 
 # Project definition
 project(IBM_IMS_Emulation
-    VERSION 3.6.2
-    DESCRIPTION "IBM IMS Emulation"
+    VERSION 3.6.3
+    DESCRIPTION "IBM IMS (Information Management System) Emulation"
     LANGUAGES CXX
 )
 
@@ -60,7 +60,7 @@ endif()
 
 message(STATUS "")
 message(STATUS "=================================================")
-message(STATUS "  IBM IMS Emulation Enterprise v${PROJECT_VERSION}")
+message(STATUS "  IBM IMS (Information Management System) Emulation Enterprise v${PROJECT_VERSION}")
 message(STATUS "=================================================")
 message(STATUS "Building for platform: ${IMS_PLATFORM}")
 message(STATUS "C++ Standard: C++${CMAKE_CXX_STANDARD}")

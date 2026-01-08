@@ -1,9 +1,9 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Serialization Framework
-// Version: 3.6.2
-// NEW in v3.6.2: Binary serialization support
+// IBM IMS (Information Management System) Emulation Enterprise - Serialization Framework
+// Version: 3.6.3
+// NEW in v3.6.3: Binary serialization support
 // =============================================================================
 
 #include "types.hpp"

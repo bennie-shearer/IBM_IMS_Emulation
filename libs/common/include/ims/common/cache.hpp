@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - LRU Cache Implementation
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - LRU Cache Implementation
+// Version: 3.6.3
 // =============================================================================
 //
 // Thread-safe LRU (Least Recently Used) cache for frequently accessed

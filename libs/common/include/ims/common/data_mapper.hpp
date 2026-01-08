@@ -1,7 +1,7 @@
 /**
  * @file data_mapper.hpp
  * @brief Data mapping and transformation utilities
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides data mapping including:
  * - Field-to-field mapping

@@ -1,6 +1,6 @@
-CommonTests 1 0.0996271
-CatalogTests 1 0.107293
-VsamTests 1 0.0840169
-ImsTests 1 0.0951653
-NewModulesTests 1 0.134955
+CommonTests 1 0.0975914
+CatalogTests 1 0.168933
+VsamTests 1 0.0894191
+ImsTests 1 0.0970764
+NewModulesTests 1 0.129488
 ---

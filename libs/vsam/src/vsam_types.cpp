@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - VSAM Types Implementation
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - VSAM Types Implementation
+// Version: 3.6.3
 // =============================================================================
 
 #include "ims/vsam/vsam_types.hpp"

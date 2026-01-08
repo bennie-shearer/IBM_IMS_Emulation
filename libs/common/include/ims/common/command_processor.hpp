@@ -1,7 +1,7 @@
 /**
  * @file command_processor.hpp
  * @brief Interactive command-line interface framework
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides command processing including:
  * - Interactive command-line interface

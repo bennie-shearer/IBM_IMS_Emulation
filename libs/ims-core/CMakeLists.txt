@@ -1,5 +1,5 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - IMS Core Library
+# IBM IMS (Information Management System) Emulation Enterprise - IMS Core Library
 # =============================================================================
 
 add_library(ims-core STATIC

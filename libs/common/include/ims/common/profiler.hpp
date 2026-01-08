@@ -1,7 +1,7 @@
 /**
  * @file profiler.hpp
  * @brief Lightweight performance profiling
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Copyright (c) 2025 Bennie Shearer
  * MIT License - See LICENSE file for details

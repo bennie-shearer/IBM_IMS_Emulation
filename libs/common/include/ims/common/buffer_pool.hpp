@@ -1,9 +1,9 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Buffer Pool
-// Version: 3.6.2
-// NEW in v3.6.2: Memory-efficient buffer management
+// IBM IMS (Information Management System) Emulation Enterprise - Buffer Pool
+// Version: 3.6.3
+// NEW in v3.6.3: Memory-efficient buffer management
 // =============================================================================
 
 #include "types.hpp"

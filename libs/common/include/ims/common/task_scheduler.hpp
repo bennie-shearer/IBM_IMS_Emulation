@@ -1,7 +1,7 @@
 /**
  * @file task_scheduler.hpp
  * @brief Simple task scheduling and execution
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides task scheduling including:
  * - Delayed task execution

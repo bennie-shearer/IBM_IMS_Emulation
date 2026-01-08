@@ -1,5 +1,5 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - Security Library
+# IBM IMS (Information Management System) Emulation Enterprise - Security Library
 # =============================================================================
 
 add_library(security STATIC

@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Platform Implementation
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Platform Implementation
+// Version: 3.6.3
 // =============================================================================
 
 #include "ims/common/platform.hpp"

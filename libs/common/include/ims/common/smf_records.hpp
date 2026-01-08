@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - SMF Record Generation
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - SMF Record Generation
+// Version: 3.6.3
 // =============================================================================
 //
 // System Management Facilities (SMF) record generation for auditing,

@@ -1,5 +1,5 @@
-# IMS (Information Management System) Emulation - Recommended Improvement
-Version 3.6.2
+# IBM IMS (Information Management System) Emulation - Recommendations
+Version 3.6.3
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ Version 3.6.2
    - [IMP-008: Simple Profiler](#imp-008-simple-profiler)
    - [IMP-009: Enhanced Data Validators](#imp-009-enhanced-data-validators)
    - [IMP-010: Memory Pool Allocator](#imp-010-memory-pool-allocator)
-3. [Bug Fixes in v3.6.2](#bug-fixes-in-v330)
+3. [Bug Fixes in v3.6.3](#bug-fixes-in-v330)
 4. [Code Quality Improvements](#code-quality-improvements)
 5. [Cross-Platform Compatibility](#cross-platform-compatibility)
 6. [Future Recommendations](#future-recommendations)
@@ -24,8 +24,8 @@ Version 3.6.2
 
 ## Overview
 
-This document outlines the recommended improvements for IBM IMS Emulation Enterprise
-v3.6.2. All improvements follow the project's design philosophy:
+This document outlines the recommended improvements for IBM IMS (Information Management System) Emulation Enterprise
+v3.6.3. All improvements follow the project's design philosophy:
 
 - **C++20 Standard**: Modern language features
 - **Zero External Dependencies**: Self-contained implementation
@@ -367,7 +367,7 @@ std::vector<Record, PoolAllocator<Record>> records(pool.allocator());
 
 ---
 
-## Bug Fixes in v3.6.2
+## Bug Fixes in v3.6.3
 
 | ID | Severity | Description | Status |
 |----|----------|-------------|--------|
@@ -441,5 +441,5 @@ The following improvements are recommended for future versions:
 
 ---
 
-*Document Version: 3.6.2*
+*Document Version: 3.6.3*
 *Last Updated: January 2026*

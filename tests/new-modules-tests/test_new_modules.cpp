@@ -1,7 +1,7 @@
 /**
  * @file test_new_modules.cpp
- * @brief Tests for v3.5.0, v3.6.0, and v3.6.2 modules
- * @version 3.6.2
+ * @brief Tests for v3.5.0, v3.6.0, and v3.6.3 modules
+ * @version 3.6.3
  *
  * Tests for:
  * - Configuration persistence
@@ -11,10 +11,10 @@
  * - State machine
  * - Compression
  * - Event bus
- * - Object pool (v3.6.2)
- * - Async queue (v3.6.2)
- * - Task scheduler (v3.6.2)
- * - Data mapper (v3.6.2)
+ * - Object pool (v3.6.3)
+ * - Async queue (v3.6.3)
+ * - Task scheduler (v3.6.3)
+ * - Data mapper (v3.6.3)
  *
  * Copyright (c) 2025 Bennie Shearer
  * MIT License - See LICENSE file for details
@@ -482,7 +482,7 @@ TEST(connection_pool_scoped) {
 }
 
 // =============================================================================
-// Object Pool Tests (v3.6.2)
+// Object Pool Tests (v3.6.3)
 // =============================================================================
 
 TEST(object_pool_basic) {
@@ -513,7 +513,7 @@ TEST(object_pool_scoped) {
 }
 
 // =============================================================================
-// Async Queue Tests (v3.6.2)
+// Async Queue Tests (v3.6.3)
 // =============================================================================
 
 TEST(async_queue_basic) {
@@ -554,7 +554,7 @@ TEST(priority_queue_basic) {
 }
 
 // =============================================================================
-// Data Mapper Tests (v3.6.2)
+// Data Mapper Tests (v3.6.3)
 // =============================================================================
 
 TEST(field_value_types) {
@@ -602,7 +602,7 @@ TEST(data_mapper_transform) {
 // =============================================================================
 
 int main() {
-    std::cout << "\n=== IBM IMS Emulation v3.6.2 - New Modules Test Suite ===\n\n";
+    std::cout << "\n=== IBM IMS (Information Management System) Emulation v3.6.3 - New Modules Test Suite ===\n\n";
     
     // Tests are auto-registered and run
     

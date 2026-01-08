@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Common Types
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Common Types
+// Version: 3.6.3
 // =============================================================================
 //
 // Copyright (c) 2025 Bennie Shearer
@@ -43,10 +43,10 @@ namespace ims {
 // Version Information
 // =============================================================================
 
-constexpr const char* IMS_VERSION = "3.6.2";
+constexpr const char* IMS_VERSION = "3.6.3";
 constexpr int IMS_VERSION_MAJOR = 3;
 constexpr int IMS_VERSION_MINOR = 6;
-constexpr int IMS_VERSION_PATCH = 2;
+constexpr int IMS_VERSION_PATCH = 3;
 
 // =============================================================================
 // Fundamental Type Aliases

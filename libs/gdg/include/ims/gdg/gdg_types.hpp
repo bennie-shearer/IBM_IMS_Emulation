@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - GDG (Generation Data Group) Types
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - GDG (Generation Data Group) Types
+// Version: 3.6.3
 // =============================================================================
 
 #include "ims/common/types.hpp"

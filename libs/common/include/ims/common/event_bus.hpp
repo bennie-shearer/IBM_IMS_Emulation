@@ -1,7 +1,7 @@
 /**
  * @file event_bus.hpp
  * @brief Event bus and publish-subscribe pattern implementation
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides event handling including:
  * - Type-safe event bus

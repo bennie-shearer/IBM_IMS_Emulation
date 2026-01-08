@@ -1,10 +1,27 @@
 # IBM IMS (Information Management System) Emulation - Change Log
-Version 3.6.2
+Version 3.6.3
 
-All notable changes to IBM IMS Emulation Enterprise are documented in this file.
+All notable changes to IBM IMS (Information Management System) Emulation Enterprise are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+---
+
+## [3.6.3] - 2026-01-08
+
+### Changed
+
+#### Product Naming
+- Updated product name from "IBM IMS Emulation" to "IBM IMS (Information Management System) Emulation"
+- Full product name is now: "IBM IMS (Information Management System) Emulation Enterprise"
+- Updated all source files, headers, documentation, and build files
+- Short form "IMS Emulation" retained in technical contexts (SMF records, diagrams)
+
+#### Version Consistency
+- Updated all version numbers from 3.6.2 to 3.6.3
+- Updated CMakeLists.txt project version to 3.6.3
+- Updated IMS_VERSION constants in types.hpp to 3.6.3
 
 ---
 
@@ -91,7 +108,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - RAII subscription handles
 
 #### Test Coverage
-- Added comprehensive test suite for v3.5.0/v3.6.2 modules
+- Added comprehensive test suite for v3.5.0/v3.6.3 modules
   - ConfigValue and JSON parser/writer tests
   - Metrics collector tests (counter, gauge, histogram)
   - Command processor tests (tokenize, parse, execute)
@@ -115,7 +132,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Documentation
 - Updated API_REFERENCE.md with new module documentation
-- Added RECOMMENDATIONS_v3.6.2.md with analysis findings
+- Added RECOMMENDATIONS_v3.6.3.md with analysis findings
 - Updated IMPROVEMENTS.md migration notes
 
 ### Fixed
@@ -177,7 +194,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Project Naming
 - Renamed project from `IMS-Emulation` to `IBM_IMS_Emulation`
-- Updated all references to use "IBM IMS Emulation Enterprise"
+- Updated all references to use "IBM IMS (Information Management System) Emulation Enterprise"
 
 #### Version Consistency
 - Updated all version numbers from 3.4.0 to 3.5.0
@@ -313,7 +330,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Documentation
 - Comprehensive BACKGROUND.md with full Table of Contents
-- RECOMMENDATIONS_v3.6.2.md with all implemented improvements
+- RECOMMENDATIONS_v3.6.3.md with all implemented improvements
 
 ### Fixed
 

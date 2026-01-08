@@ -1,5 +1,5 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - Common Library
+# IBM IMS (Information Management System) Emulation Enterprise - Common Library
 # =============================================================================
 
 add_library(common STATIC

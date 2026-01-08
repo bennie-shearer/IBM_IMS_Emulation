@@ -1,7 +1,7 @@
 /**
  * @file metrics_collector.hpp
  * @brief Real-time performance metrics collection and aggregation
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides metrics collection including:
  * - Real-time performance metrics

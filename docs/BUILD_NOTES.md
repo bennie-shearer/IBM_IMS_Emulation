@@ -1,5 +1,5 @@
 # IMS (Information Management System) Emulation - Build Notes
-Version 3.6.2
+Version 3.6.3
 
 This document provides detailed build instructions for all supported platforms.
 
@@ -57,7 +57,7 @@ sudo apt install build-essential cmake
 g++ --version  # Should be 11.0 or higher
 
 # Clone or extract project
-cd IMS-Emulation-Enterprise-v3.6.2
+cd IMS-Emulation-Enterprise-v3.6.3
 
 # Create build directory
 mkdir build && cd build
@@ -115,7 +115,7 @@ brew install cmake
 ### Building
 
 ```bash
-cd IMS-Emulation-Enterprise-v3.6.2
+cd IMS-Emulation-Enterprise-v3.6.3
 mkdir build && cd build
 cmake ..
 make -j$(sysctl -n hw.ncpu)
@@ -146,7 +146,7 @@ make -j$(sysctl -n hw.ncpu)
 ### Command Line Build
 
 ```batch
-cd IMS-Emulation-Enterprise-v3.6.2
+cd IMS-Emulation-Enterprise-v3.6.3
 mkdir build
 cd build
 
@@ -178,7 +178,7 @@ ctest -C Release --output-on-failure
 
 ```batch
 :: Open "Developer Command Prompt for VS 2022"
-cd path\to\IMS-Emulation-Enterprise-v3.6.2
+cd path\to\IMS-Emulation-Enterprise-v3.6.3
 mkdir build && cd build
 cmake -G "Visual Studio 17 2022" -A x64 ..
 cmake --build . --config Release
@@ -202,7 +202,7 @@ pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake mingw-w64-x86_64-make
 ### Building
 
 ```bash
-cd /path/to/IMS-Emulation-Enterprise-v3.6.2
+cd /path/to/IMS-Emulation-Enterprise-v3.6.3
 mkdir build && cd build
 cmake -G "MinGW Makefiles" ..
 mingw32-make -j4
@@ -352,7 +352,7 @@ ctest --output-on-failure
 ./bin/ims-console-demo
 
 # Should display:
-# IBM IMS Emulation Enterprise Demo
+# IBM IMS (Information Management System) Emulation Enterprise Demo
 # ================================
 # ...
 ```

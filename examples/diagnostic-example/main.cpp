@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Diagnostic Example
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Diagnostic Example
+// Version: 3.6.3
 // =============================================================================
 
 #include <iostream>
@@ -17,8 +17,8 @@ using namespace ims::time;
 
 int main() {
     std::cout << "=================================================\n";
-    std::cout << "IBM IMS Emulation Enterprise - Diagnostic Example\n";
-    std::cout << "Version 3.6.2\n";
+    std::cout << "IBM IMS (Information Management System) Emulation Enterprise - Diagnostic Example\n";
+    std::cout << "Version 3.6.3\n";
     std::cout << "=================================================\n\n";
     
     // Hex dump demo

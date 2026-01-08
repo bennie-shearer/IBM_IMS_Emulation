@@ -1,9 +1,9 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Thread Pool
-// Version: 3.6.2
-// NEW in v3.6.2: Concurrent operation support
+// IBM IMS (Information Management System) Emulation Enterprise - Thread Pool
+// Version: 3.6.3
+// NEW in v3.6.3: Concurrent operation support
 // =============================================================================
 
 #include "types.hpp"

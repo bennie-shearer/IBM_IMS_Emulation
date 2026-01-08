@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Console Demo
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Console Demo
+// Version: 3.6.3
 // =============================================================================
 
 #include "ims/common/types.hpp"
@@ -20,7 +20,7 @@
 using namespace ims;
 
 /**
- * @brief IBM IMS Emulation Enterprise Console Demo
+ * @brief IBM IMS (Information Management System) Emulation Enterprise Console Demo
  * 
  * Production demonstration of IMS Enterprise capabilities:
  * - Console output only (no GUI dialogs)
@@ -37,7 +37,7 @@ public:
     
     ErrorResult<void> initialize() {
         std::cout << std::string(80, '=') << std::endl;
-        std::cout << "IMS EMULATION ENTERPRISE v" << IMS_VERSION << " - CONSOLE DEMO" << std::endl;
+        std::cout << "IBM IMS (INFORMATION MANAGEMENT SYSTEM) EMULATION ENTERPRISE v" << IMS_VERSION << " - CONSOLE DEMO" << std::endl;
         std::cout << std::string(80, '=') << std::endl;
         std::cout << "Platform: " << IMS_PLATFORM_NAME << std::endl;
         std::cout << "Architecture: " << IMS_ARCH_NAME << std::endl;
@@ -339,7 +339,7 @@ private:
         std::cout << "DEMONSTRATION COMPLETE" << std::endl;
         std::cout << std::string(80, '=') << std::endl;
         std::cout << std::endl;
-        std::cout << "IBM IMS Emulation Enterprise v" << IMS_VERSION << " Features Demonstrated:" << std::endl;
+        std::cout << "IBM IMS (Information Management System) Emulation Enterprise v" << IMS_VERSION << " Features Demonstrated:" << std::endl;
         std::cout << "  - Security Context and Authorization" << std::endl;
         std::cout << "  - Master Catalog Management" << std::endl;
         std::cout << "  - VSAM Dataset Operations" << std::endl;

@@ -1,7 +1,7 @@
 /**
  * @file compression.hpp
  * @brief Data compression utilities with zero external dependencies
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides compression functionality including:
  * - Run-length encoding (RLE)

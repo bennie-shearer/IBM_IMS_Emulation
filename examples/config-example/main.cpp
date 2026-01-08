@@ -1,7 +1,7 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Configuration Example
-// Version: 3.6.2
-// NEW in v3.6.2: Demonstrates runtime configuration management
+// IBM IMS (Information Management System) Emulation Enterprise - Configuration Example
+// Version: 3.6.3
+// NEW in v3.6.3: Demonstrates runtime configuration management
 // =============================================================================
 
 #include "ims/common/types.hpp"
@@ -17,7 +17,7 @@ void print_separator(const char* title) {
 }
 
 int main() {
-    std::cout << "=== IMS Configuration Example (v3.6.2) ===" << std::endl;
+    std::cout << "=== IMS Configuration Example (v3.6.3) ===" << std::endl;
     
     // =========================================================================
     // Create and populate configuration
@@ -27,7 +27,7 @@ int main() {
     ConfigManager config;
     
     // Set values in default section
-    config.set("app_name", "IBM IMS Emulation Enterprise");
+    config.set("app_name", "IBM IMS (Information Management System) Emulation Enterprise");
     config.set("version", "3.6.2");
     config.set("debug", true);
     config.set("max_connections", 100);

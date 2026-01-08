@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - GDG Manager Implementation
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - GDG Manager Implementation
+// Version: 3.6.3
 // =============================================================================
 
 #include "ims/gdg/gdg_types.hpp"

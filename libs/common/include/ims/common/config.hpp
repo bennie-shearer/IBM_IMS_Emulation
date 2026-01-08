@@ -1,9 +1,9 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Configuration Management
-// Version: 3.6.2
-// NEW in v3.6.2: Runtime configuration support
+// IBM IMS (Information Management System) Emulation Enterprise - Configuration Management
+// Version: 3.6.3
+// NEW in v3.6.3: Runtime configuration support
 // =============================================================================
 
 #include "types.hpp"
@@ -271,7 +271,7 @@ public:
             return make_error<void>("Failed to open config file for writing: " + path.string());
         }
         
-        file << "# IBM IMS Emulation Enterprise Configuration\n";
+        file << "# IBM IMS (Information Management System) Emulation Enterprise Configuration\n";
         file << "# Generated automatically\n\n";
         
         for (const auto& [section_name, section] : sections_) {

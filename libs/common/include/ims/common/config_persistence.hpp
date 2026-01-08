@@ -1,7 +1,7 @@
 /**
  * @file config_persistence.hpp
  * @brief Configuration persistence with JSON support and validation
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides configuration file management including:
  * - JSON-based configuration storage

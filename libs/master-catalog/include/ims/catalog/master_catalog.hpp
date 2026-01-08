@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Master Catalog
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Master Catalog
+// Version: 3.6.3
 // =============================================================================
 
 #include "catalog_types.hpp"

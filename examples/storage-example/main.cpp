@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Storage Example
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Storage Example
+// Version: 3.6.3
 // =============================================================================
 
 #include <iostream>
@@ -13,8 +13,8 @@ using namespace ims::storage;
 
 int main() {
     std::cout << "=================================================\n";
-    std::cout << "IBM IMS Emulation Enterprise - Storage Example\n";
-    std::cout << "Version 3.6.2\n";
+    std::cout << "IBM IMS (Information Management System) Emulation Enterprise - Storage Example\n";
+    std::cout << "Version 3.6.3\n";
     std::cout << "=================================================\n\n";
     
     // Memory storage demo
@@ -22,7 +22,7 @@ int main() {
     
     MemoryStorage storage(1024 * 1024);  // 1MB
     
-    String data = "Hello from IBM IMS Emulation Enterprise!";
+    String data = "Hello from IBM IMS (Information Management System) Emulation Enterprise!";
     storage.write(data.data(), data.size(), 0);
     std::cout << "Wrote: \"" << data << "\"\n";
     

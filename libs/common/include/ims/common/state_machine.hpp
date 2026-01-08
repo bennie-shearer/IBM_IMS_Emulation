@@ -1,7 +1,7 @@
 /**
  * @file state_machine.hpp
  * @brief Generic finite state machine implementation
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides state machine functionality including:
  * - Generic finite state machine

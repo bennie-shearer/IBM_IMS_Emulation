@@ -1,7 +1,7 @@
 /**
  * @file connection_pool.hpp
  * @brief Generic connection pooling with health checks and leak detection
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides connection pool management including:
  * - Generic connection pooling

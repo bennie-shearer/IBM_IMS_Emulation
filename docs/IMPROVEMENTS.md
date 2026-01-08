@@ -1,16 +1,16 @@
 # IBM IMS (Information Management System) Emulation - Improvements
-Version 3.6.2
+Version 3.6.3
 
 This document details the improvements and new features in version 3.6.0,
 which includes all features from versions 3.1.0 through 3.5.0,
-plus new components introduced in v3.6.2.
+plus new components introduced in v3.6.3.
 
 ---
 
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Version 3.6.2 New Components](#version-360-new-components)
+2. [Version 3.6.3 New Components](#version-360-new-components)
 3. [Version 3.5.0 Components](#version-350-components)
 4. [Previous Version Components](#previous-version-components)
 5. [Build System Improvements](#build-system-improvements)
@@ -21,7 +21,7 @@ plus new components introduced in v3.6.2.
 
 ## Overview
 
-Version 3.6.2 introduces significant new functionality while maintaining full
+Version 3.6.3 introduces significant new functionality while maintaining full
 backward compatibility with previous versions. The primary focus areas are:
 
 ### From Previous Versions
@@ -32,7 +32,7 @@ backward compatibility with previous versions. The primary focus areas are:
 - **Time Management**: IBM-compatible timestamp formats
 - **Storage Abstraction**: Cross-platform persistent storage
 
-### New in Version 3.6.2
+### New in Version 3.6.3
 - **Event Bus**: Type-safe publish-subscribe pattern
 - **Test Coverage**: Comprehensive tests for new modules
 - **Bug Fixes**: Duplicate enum naming, version references
@@ -47,7 +47,7 @@ backward compatibility with previous versions. The primary focus areas are:
 
 ---
 
-## Version 3.6.2 New Components
+## Version 3.6.3 New Components
 
 ### 1. Event Bus (IMP-017)
 
@@ -710,7 +710,7 @@ public:
 
 ### From Previous Versions to 3.6.0
 
-Version 3.6.2 is fully backward compatible. No code changes are required
+Version 3.6.3 is fully backward compatible. No code changes are required
 to existing applications.
 
 To use new features:

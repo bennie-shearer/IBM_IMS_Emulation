@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Diagnostic Utilities
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Diagnostic Utilities
+// Version: 3.6.3
 // =============================================================================
 //
 // Provides hex dumps, memory dumps, diagnostic information collection,

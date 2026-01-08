@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Retry Mechanism
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Retry Mechanism
+// Version: 3.6.3
 // =============================================================================
 //
 // Provides retry functionality with exponential backoff for handling

@@ -1,6 +1,6 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - Tests CMakeLists.txt
-# Version: 3.6.2
+# IBM IMS (Information Management System) Emulation Enterprise - Tests CMakeLists.txt
+# Version: 3.6.3
 # =============================================================================
 
 # Common include directories
@@ -60,7 +60,7 @@ target_link_libraries(ims-tests PRIVATE ${TEST_LIBS})
 add_test(NAME ImsTests COMMAND ims-tests)
 
 # =============================================================================
-# New Modules Tests (v3.5.0/v3.6.2)
+# New Modules Tests (v3.5.0/v3.6.3)
 # =============================================================================
 add_executable(new-modules-tests new-modules-tests/test_new_modules.cpp)
 target_include_directories(new-modules-tests PRIVATE ${TEST_INCLUDES})
@@ -68,7 +68,7 @@ target_link_libraries(new-modules-tests PRIVATE ${TEST_LIBS})
 add_test(NAME NewModulesTests COMMAND new-modules-tests)
 
 # =============================================================================
-# Benchmark Tests (NEW in v3.6.2)
+# Benchmark Tests (NEW in v3.6.3)
 # =============================================================================
 if(IMS_BUILD_BENCHMARKS)
     # Benchmark unit tests

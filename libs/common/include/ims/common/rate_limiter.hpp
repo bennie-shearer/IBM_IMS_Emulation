@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Rate Limiter
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Rate Limiter
+// Version: 3.6.3
 // =============================================================================
 //
 // Token bucket and sliding window rate limiting for request throttling.

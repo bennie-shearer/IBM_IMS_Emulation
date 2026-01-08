@@ -1,11 +1,11 @@
-# IMS Emulation
-Version 3.6.2 | January 2026
+# IBM IMS (Information Management System) Emulation
+Version 3.6.3
 
 ---
 
 ## Overview
 
-IBM IMS Emulation Enterprise provides a comprehensive emulation of IBM mainframe data management systems, enabling development, testing, and training without requiring access to actual mainframe hardware.
+IBM IMS (Information Management System) Emulation Enterprise provides a comprehensive emulation of IBM mainframe data management systems, enabling development, testing, and training without requiring access to actual mainframe hardware.
 
 ### Key Features
 
@@ -74,7 +74,7 @@ ctest --output-on-failure
 ## Project Structure
 
 ```
-IMS-Emulation-Enterprise-v3.6.2/
+IMS-Emulation-Enterprise-v3.6.3/
 |---- CMakeLists.txt          # Main build configuration
 |---- cmake/                  # CMake support files
 |---- libs/                   # Core libraries

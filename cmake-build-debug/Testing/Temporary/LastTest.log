@@ -1,3 +1,292 @@
-Start testing: Jan 07 19:16 Central Standard Time
+Start testing: Jan 07 19:40 Central Standard Time
 ----------------------------------------------------------
-End testing: Jan 07 19:16 Central Standard Time
+1/5 Testing: CommonTests
+1/5 Test: CommonTests
+Command: "C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/bin/common-tests.exe"
+Directory: C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/tests
+"CommonTests" start time: Jan 07 19:40 Central Standard Time
+Output:
+----------------------------------------------------------
+================================
+Test Suite: Common Library Tests
+================================
+  [RUN ] RecordKey Construction
+  [PASS] RecordKey Construction
+  [RUN ] RecordKey Comparison
+  [PASS] RecordKey Comparison
+  [RUN ] ByteBuffer Hex Conversion
+  [PASS] ByteBuffer Hex Conversion
+  [RUN ] PerformanceMetrics
+  [PASS] PerformanceMetrics
+  [RUN ] ErrorResult Success
+  [PASS] ErrorResult Success
+  [RUN ] ErrorResult Error
+  [PASS] ErrorResult Error
+  [RUN ] ErrorResult<String> Specialization
+  [PASS] ErrorResult<String> Specialization
+  [RUN ] ErrorResult<void>
+  [PASS] ErrorResult<void>
+  [RUN ] ErrorResult Map
+  [PASS] ErrorResult Map
+  [RUN ] ErrorInfo
+  [PASS] ErrorInfo
+  [RUN ] ErrorReporter
+  [PASS] ErrorReporter
+  [RUN ] PlatformInfo
+  [PASS] PlatformInfo
+  [RUN ] Platform Utilities
+  [PASS] Platform Utilities
+--------------------------------
+Results: 13 passed, 0 failed
+================================
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"CommonTests" end time: Jan 07 19:40 Central Standard Time
+"CommonTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: CatalogTests
+2/5 Test: CatalogTests
+Command: "C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/bin/catalog-tests.exe"
+Directory: C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/tests
+"CatalogTests" start time: Jan 07 19:40 Central Standard Time
+Output:
+----------------------------------------------------------
+================================
+Test Suite: Catalog Library Tests
+================================
+  [RUN ] dsorg_to_string
+  [PASS] dsorg_to_string
+  [RUN ] vsam_type_to_string
+  [PASS] vsam_type_to_string
+  [RUN ] recfm_to_string
+  [PASS] recfm_to_string
+  [RUN ] VolumeInfo utilization
+  [PASS] VolumeInfo utilization
+  [RUN ] CatalogEntry is_vsam
+  [PASS] CatalogEntry is_vsam
+  [RUN ] CatalogEntry is_pds
+  [PASS] CatalogEntry is_pds
+  [RUN ] MasterCatalog creation
+  [PASS] MasterCatalog creation
+  [RUN ] MasterCatalog define_entry
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.DATASET.ONE[0m
+  [PASS] MasterCatalog define_entry
+  [RUN ] MasterCatalog get_entry
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.DATASET.GET[0m
+  [PASS] MasterCatalog get_entry
+  [RUN ] MasterCatalog get_entry not found
+  [PASS] MasterCatalog get_entry not found
+  [RUN ] MasterCatalog delete_entry
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.DELETE.ME[0m
+[32m[2026-01-07 19:40:47] [INFO] Deleted catalog entry: TEST.DELETE.ME[0m
+  [PASS] MasterCatalog delete_entry
+  [RUN ] MasterCatalog update_entry
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.UPDATE.ME[0m
+  [PASS] MasterCatalog update_entry
+  [RUN ] MasterCatalog duplicate entry
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.DUPLICATE[0m
+  [PASS] MasterCatalog duplicate entry
+  [RUN ] MasterCatalog list_entries
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: PROD.DATA.ONE[0m
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: PROD.DATA.TWO[0m
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: PROD.SOURCE.CODE[0m
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.DATA.ONE[0m
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.DATA.TWO[0m
+  [PASS] MasterCatalog list_entries
+  [RUN ] MasterCatalog VSAM entries
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.VSAM.KSDS[0m
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.VSAM.ESDS[0m
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.SEQ.DATA[0m
+  [PASS] MasterCatalog VSAM entries
+  [RUN ] MasterCatalog volumes
+  [PASS] MasterCatalog volumes
+  [RUN ] MasterCatalog statistics
+[32m[2026-01-07 19:40:47] [INFO] Defined catalog entry: TEST.STATS.DATA[0m
+  [PASS] MasterCatalog statistics
+  [RUN ] MasterCatalog valid_dataset_name
+  [PASS] MasterCatalog valid_dataset_name
+--------------------------------
+Results: 18 passed, 0 failed
+================================
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"CatalogTests" end time: Jan 07 19:40 Central Standard Time
+"CatalogTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: VsamTests
+3/5 Test: VsamTests
+Command: "C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/bin/vsam-tests.exe"
+Directory: C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/tests
+"VsamTests" start time: Jan 07 19:40 Central Standard Time
+Output:
+----------------------------------------------------------
+================================
+Test Suite: VSAM Library Tests
+================================
+  [RUN ] VsamDatasetConfig default
+  [PASS] VsamDatasetConfig default
+  [RUN ] VsamDatasetConfig KSDS
+  [PASS] VsamDatasetConfig KSDS
+  [RUN ] VsamDatasetConfig ESDS
+  [PASS] VsamDatasetConfig ESDS
+  [RUN ] VsamKey default
+  [PASS] VsamKey default
+  [RUN ] VsamKey from size
+  [PASS] VsamKey from size
+  [RUN ] VsamKey from string
+  [PASS] VsamKey from string
+  [RUN ] VsamKey from bytes
+  [PASS] VsamKey from bytes
+  [RUN ] VsamKey comparison
+  [PASS] VsamKey comparison
+  [RUN ] VsamRecord default
+  [PASS] VsamRecord default
+  [RUN ] VsamRecord from size
+  [PASS] VsamRecord from size
+  [RUN ] VsamRecord from bytes
+  [PASS] VsamRecord from bytes
+  [RUN ] VsamRecord with key
+  [PASS] VsamRecord with key
+  [RUN ] VsamRecord ESDS RBA
+  [PASS] VsamRecord ESDS RBA
+  [RUN ] VsamRecord RRDS slot
+  [PASS] VsamRecord RRDS slot
+  [RUN ] VsamStatistics default
+  [PASS] VsamStatistics default
+  [RUN ] VsamStatistics space utilization
+  [PASS] VsamStatistics space utilization
+  [RUN ] VsamStatistics total operations
+  [PASS] VsamStatistics total operations
+  [RUN ] vsam_return_code_to_string
+  [PASS] vsam_return_code_to_string
+  [RUN ] VsamReturnCode values
+  [PASS] VsamReturnCode values
+--------------------------------
+Results: 19 passed, 0 failed
+================================
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"VsamTests" end time: Jan 07 19:40 Central Standard Time
+"VsamTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: ImsTests
+4/5 Test: ImsTests
+Command: "C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/bin/ims-tests.exe"
+Directory: C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/tests
+"ImsTests" start time: Jan 07 19:40 Central Standard Time
+Output:
+----------------------------------------------------------
+================================
+Test Suite: IMS Library Tests
+================================
+  [RUN ] database_type_to_string
+  [PASS] database_type_to_string
+  [RUN ] access_method_to_string
+  [PASS] access_method_to_string
+  [RUN ] dli_call_to_string
+  [PASS] dli_call_to_string
+  [RUN ] dli_status_to_string
+  [PASS] dli_status_to_string
+  [RUN ] DliStatusCode unique values
+  [PASS] DliStatusCode unique values
+  [RUN ] SegmentDefinition root
+  [PASS] SegmentDefinition root
+  [RUN ] SegmentDefinition child
+  [PASS] SegmentDefinition child
+  [RUN ] DatabaseDefinition default
+  [PASS] DatabaseDefinition default
+  [RUN ] DatabaseDefinition with segments
+  [PASS] DatabaseDefinition with segments
+  [RUN ] DliRequest default
+  [PASS] DliRequest default
+  [RUN ] DliRequest GU
+  [PASS] DliRequest GU
+  [RUN ] DliRequest ISRT
+  [PASS] DliRequest ISRT
+  [RUN ] DliResponse default
+  [PASS] DliResponse default
+  [RUN ] DliResponse success
+  [PASS] DliResponse success
+  [RUN ] DliResponse error
+  [PASS] DliResponse error
+  [RUN ] ImsStatistics default
+  [PASS] ImsStatistics default
+  [RUN ] ImsStatistics success rate
+  [PASS] ImsStatistics success rate
+  [RUN ] ImsStatistics calls
+  [PASS] ImsStatistics calls
+--------------------------------
+Results: 18 passed, 0 failed
+================================
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ImsTests" end time: Jan 07 19:40 Central Standard Time
+"ImsTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: NewModulesTests
+5/5 Test: NewModulesTests
+Command: "C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/bin/new-modules-tests.exe"
+Directory: C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug/tests
+"NewModulesTests" start time: Jan 07 19:40 Central Standard Time
+Output:
+----------------------------------------------------------
+Running: config_value_types... PASSED
+Running: config_value_conversions... PASSED
+Running: json_parser... PASSED
+Running: json_writer... PASSED
+Running: metrics_counter... PASSED
+Running: metrics_gauge... PASSED
+Running: metrics_histogram... PASSED
+Running: command_tokenize... PASSED
+Running: command_parse... PASSED
+Running: command_processor_builtin... PASSED
+Running: state_machine_basic... PASSED
+Running: state_machine_guard... PASSED
+Running: rle_compression... PASSED
+Running: dictionary_compression... PASSED
+Running: compression_algorithm_recommend... PASSED
+Running: event_bus_basic... PASSED
+Running: event_bus_priority... PASSED
+Running: event_bus_cancel... PASSED
+Running: event_bus_once... PASSED
+Running: topic_pubsub_wildcard... PASSED
+Running: connection_pool_basic... PASSED
+Running: connection_pool_scoped... PASSED
+Running: object_pool_basic... PASSED
+Running: object_pool_scoped... PASSED
+Running: async_queue_basic... PASSED
+Running: bounded_queue_basic... PASSED
+Running: priority_queue_basic... PASSED
+Running: field_value_types... PASSED
+Running: record_def_basic... PASSED
+Running: data_mapper_transform... PASSED
+
+=== IBM IMS (Information Management System) Emulation v3.6.3 - New Modules Test Suite ===
+
+
+=== Test Results ===
+Passed: 30
+Failed: 0
+
+ALL TESTS PASSED!
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"NewModulesTests" end time: Jan 07 19:40 Central Standard Time
+"NewModulesTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 07 19:40 Central Standard Time

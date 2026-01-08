@@ -1,5 +1,5 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - VSAM Library
+# IBM IMS (Information Management System) Emulation Enterprise - VSAM Library
 # =============================================================================
 
 add_library(vsam STATIC

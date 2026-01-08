@@ -1,5 +1,5 @@
 # IMS (Information Management System) Emulation - Background
-Version 3.6.2
+Version 3.6.3
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ Version 3.6.2
 
 ## Introduction
 
-IBM IMS Emulation Enterprise is a comprehensive software system that emulates core IBM
+IBM IMS (Information Management System) Emulation Enterprise is a comprehensive software system that emulates core IBM
 mainframe technologies including IMS (Information Management System), VSAM (Virtual
 Storage Access Method), and related subsystems. This document provides background
 on the mainframe ecosystem, explains the value of emulation, and describes the
@@ -175,7 +175,7 @@ Emulation can reduce costs by:
 
 ### Bridging Legacy and Modern Systems
 
-IBM IMS Emulation Enterprise occupies a unique position in the mainframe ecosystem:
+IBM IMS (Information Management System) Emulation Enterprise occupies a unique position in the mainframe ecosystem:
 
 ```
 +-------------------+     +----------------------+     +------------------+
@@ -217,7 +217,7 @@ The project serves as a bridge between:
 
 ### Complementary Technologies
 
-IBM IMS Emulation Enterprise complements:
+IBM IMS (Information Management System) Emulation Enterprise complements:
 
 | Technology | Relationship |
 |------------|--------------|
@@ -507,5 +507,5 @@ Special thanks to:
 
 ---
 
-*Document Version: 3.6.2*
+*Document Version: 3.6.3*
 *Last Updated: December 2025*

@@ -1,9 +1,9 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Audit Logging
-// Version: 3.6.2
-// NEW in v3.6.2: Security audit trail support
+// IBM IMS (Information Management System) Emulation Enterprise - Audit Logging
+// Version: 3.6.3
+// NEW in v3.6.3: Security audit trail support
 // =============================================================================
 
 #include "types.hpp"

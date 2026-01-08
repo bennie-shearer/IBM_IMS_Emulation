@@ -1,5 +1,5 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - GDG Library
+# IBM IMS (Information Management System) Emulation Enterprise - GDG Library
 # =============================================================================
 
 add_library(gdg STATIC

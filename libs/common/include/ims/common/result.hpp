@@ -1,7 +1,7 @@
 /**
  * @file result.hpp
  * @brief Type-safe result type with error chaining for error handling
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Copyright (c) 2025 Bennie Shearer
  * MIT License - See LICENSE file for details

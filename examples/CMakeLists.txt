@@ -1,6 +1,6 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - Examples CMakeLists.txt
-# Version: 3.6.2
+# IBM IMS (Information Management System) Emulation Enterprise - Examples CMakeLists.txt
+# Version: 3.6.3
 # =============================================================================
 
 # Common include directories for all examples
@@ -76,14 +76,14 @@ target_include_directories(batch-example PRIVATE ${EXAMPLE_INCLUDES})
 target_link_libraries(batch-example PRIVATE ${EXAMPLE_LIBS})
 
 # =============================================================================
-# Storage Example (NEW in v3.6.2)
+# Storage Example (NEW in v3.6.3)
 # =============================================================================
 add_executable(storage-example storage-example/main.cpp)
 target_include_directories(storage-example PRIVATE ${EXAMPLE_INCLUDES})
 target_link_libraries(storage-example PRIVATE ${EXAMPLE_LIBS})
 
 # =============================================================================
-# Diagnostic Example (NEW in v3.6.2)
+# Diagnostic Example (NEW in v3.6.3)
 # =============================================================================
 add_executable(diagnostic-example diagnostic-example/main.cpp)
 target_include_directories(diagnostic-example PRIVATE ${EXAMPLE_INCLUDES})

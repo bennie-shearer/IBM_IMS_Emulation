@@ -1,5 +1,5 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - DFSMShsm Library
+# IBM IMS (Information Management System) Emulation Enterprise - DFSMShsm Library
 # =============================================================================
 
 add_library(dfsmshsm STATIC

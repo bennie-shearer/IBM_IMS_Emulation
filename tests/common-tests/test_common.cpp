@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Common Library Tests
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Common Library Tests
+// Version: 3.6.3
 // =============================================================================
 
 #include "../test_framework.hpp"

@@ -1,7 +1,7 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Batch Operations Example
-// Version: 3.6.2
-// NEW in v3.6.2: Demonstrates bulk processing capabilities
+// IBM IMS (Information Management System) Emulation Enterprise - Batch Operations Example
+// Version: 3.6.3
+// NEW in v3.6.3: Demonstrates bulk processing capabilities
 // =============================================================================
 
 #include "ims/common/types.hpp"
@@ -35,7 +35,7 @@ struct SampleResult {
 };
 
 int main() {
-    std::cout << "=== IMS Batch Operations Example (v3.6.2) ===" << std::endl;
+    std::cout << "=== IMS Batch Operations Example (v3.6.3) ===" << std::endl;
     
     // =========================================================================
     // Thread Pool Demo

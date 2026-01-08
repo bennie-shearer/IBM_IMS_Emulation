@@ -1,8 +1,8 @@
 #pragma once
 
 // =============================================================================
-// IBM IMS Emulation Enterprise - Storage Abstraction Layer
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Storage Abstraction Layer
+// Version: 3.6.3
 // =============================================================================
 //
 // Provides cross-platform persistent storage abstraction with journaling,

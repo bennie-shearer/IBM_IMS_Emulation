@@ -1,6 +1,6 @@
 // =============================================================================
-// IBM IMS Emulation Enterprise - Storage Manager Implementation
-// Version: 3.6.2
+// IBM IMS (Information Management System) Emulation Enterprise - Storage Manager Implementation
+// Version: 3.6.3
 // =============================================================================
 
 #include "ims/dfsmshsm/dfsmshsm_types.hpp"

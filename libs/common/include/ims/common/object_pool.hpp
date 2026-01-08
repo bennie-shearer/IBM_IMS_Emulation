@@ -1,7 +1,7 @@
 /**
  * @file object_pool.hpp
  * @brief High-performance object pool for frequent allocations
- * @version 3.6.2
+ * @version 3.6.3
  *
  * Provides object pooling including:
  * - Pre-allocated object pools

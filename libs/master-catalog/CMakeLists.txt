@@ -1,5 +1,5 @@
 # =============================================================================
-# IBM IMS Emulation Enterprise - Master Catalog Library
+# IBM IMS (Information Management System) Emulation Enterprise - Master Catalog Library
 # =============================================================================
 
 add_library(master-catalog STATIC
