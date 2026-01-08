@@ -1,0 +1,37 @@
+"C:\Program Files\JetBrains\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.5/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Benni\CLionProjects\IBM_IMS_Emulation -B C:\Users\Benni\CLionProjects\IBM_IMS_Emulation\cmake-build-debug
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.3.5/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- 
+-- =================================================
+--   IBM IMS Emulation Enterprise v3.6.2
+-- =================================================
+-- Building for platform: Windows
+-- C++ Standard: C++20
+-- Compiler: GCC 13.1.0
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test COMPILER_SUPPORTS_SSE42
+-- Performing Test COMPILER_SUPPORTS_SSE42 - Success
+-- Performing Test COMPILER_SUPPORTS_AVX2
+-- Performing Test COMPILER_SUPPORTS_AVX2 - Success
+-- 
+-- === Build Configuration Summary ===
+--   Version:        3.6.2
+--   Platform:       Windows
+--   C++ Standard:   C++20
+--   Build Type:     Debug
+--   Build Tests:    ON
+--   Build Examples: ON
+--   Build Benchmarks: ON
+--   OpenSSL:        OFF
+-- 
+-- Configuration complete
+-- =================================================
+-- Configuring done (1.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/Benni/CLionProjects/IBM_IMS_Emulation/cmake-build-debug

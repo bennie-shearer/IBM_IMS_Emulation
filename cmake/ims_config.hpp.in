@@ -1,0 +1,27 @@
+#pragma once
+
+// =============================================================================
+// IBM IMS Emulation Enterprise - Generated Configuration Header
+// Version: @PROJECT_VERSION_MAJOR@.@PROJECT_VERSION_MINOR@.@PROJECT_VERSION_PATCH@
+// =============================================================================
+
+#define IMS_VERSION_MAJOR @PROJECT_VERSION_MAJOR@
+#define IMS_VERSION_MINOR @PROJECT_VERSION_MINOR@
+#define IMS_VERSION_PATCH @PROJECT_VERSION_PATCH@
+#define IMS_VERSION_STRING "@PROJECT_VERSION@"
+
+// Platform Detection
+#cmakedefine IMS_PLATFORM_WINDOWS
+#cmakedefine IMS_PLATFORM_LINUX
+#cmakedefine IMS_PLATFORM_MACOS
+
+// Build Configuration
+#cmakedefine IMS_ENABLE_OPENSSL
+#cmakedefine IMS_BUILD_TESTS
+
+// CPU Features
+#cmakedefine IMS_HAS_SSE42
+#cmakedefine IMS_HAS_AVX2
+
+// Build Type
+#define CMAKE_BUILD_TYPE "@CMAKE_BUILD_TYPE@"
